@@ -1,0 +1,107 @@
+.nav-bar{
+	background-color: #880E7F;
+	width:100%;
+	margin:0px 0px 10px 0px; 
+}
+.nav-bar-list{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.list-items{
+	float: left;
+	font-family: Arial;
+	font-size: 14px;
+}
+.list-items a{
+	display: block;
+    color: #D3D3D3;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.list-items a:hover{
+	background-color:#880E3E;
+}
+.login{
+	float: right;
+}
+.uniben{
+	text-transform: uppercase;
+	font-size: 16px;
+}
+.uniben a:hover{
+	background-color: #880E7F;
+}
+.form{
+	background-color: #FFFFFF;
+	border: 1.5px solid #D8D8D8;
+	border-radius: 5px;
+	margin-left:100px;
+	margin-right: 100px; 
+	padding: 20px 5px 20px 20px;
+}
+body{
+	background-color: #F2F2F2;
+	margin: 0px;
+}
+.footer{
+	float: right;
+	margin-right: 110px;
+}
+td{
+	padding-right:20px;
+	padding-bottom: 10px;
+}
+.textbox{
+	width:925px;
+	height: 30px;
+	border-radius: 5px;
+	border: 1.5px solid #D8D8D8;
+}
+.form-table{
+	margin-left: 50px;
+}
+.password{
+	margin-left: 40px;
+}
+.button{
+	background-color: #4C70BA;
+	color: #FFFFFF;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #4C70BA;
+}
+.link{
+	color:#880E4F;
+	text-decoration: none;
+}
+h1{
+	font-family: Arial;
+	color:#424242;
+	font-weight:normal;
+	font-size: 36px;
+}
+.form-font{
+	font-weight: bold;
+	color: #424242;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+p{
+	font-weight: normal;
+	font-family: Arial;
+	font-size: 14px;
+	color: #424242;
+}
+.text{
+	padding: 0px;
+	font-weight: normal;
+	font-family: Arial;
+	font-size: 14px;
+	color: #424242;
+}

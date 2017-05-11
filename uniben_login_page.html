@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8" />
+<title>Uniben Login Page Clone</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link href="style.css" rel="stylesheet" />
+</head>
+<body>
+	<div class="nav-bar">
+		<ul class="nav-bar-list">
+			<li class="list-items uniben"><a href="https://uniben.waeup.org">Uniben</a></li>
+			<li class="list-items"><a href="https://uniben.waeup.org/applicants">Application</a></li>
+			<li class="list-items"><a href="https://uniben.waeup.org/enquiries">Enquiries</a></li>
+			<li class="list-items login" ><a href="https://uniben.waeup.org/login">Login</a></li>
+		</ul>
+	</div>
+	<div>
+		<div class="container">
+			<div class="form">
+				<h1>Login</h1>
+				<form method="post">
+					<table class="form-table">
+						<tr><td><label class="form-font" >User Name or Id</label></td>
+							<td><input name="form.login" type="text" class="textbox" id="login" /></td>
+						</tr>
+						<tr><td><label class="password form-font">Password</label></td>
+							<td><input name="form.password" type="password" class="textbox" id="password"></td>
+						</tr>
+						<tr><td></td>
+							<td style="color:red" class="text">Notice: Usernames, Ids and passwords are case-sensitive.</td>
+						</tr>
+					</table>
+					<input class="button" type="submit" name="SUBMIT" value="Login" />
+				 	<br /><br /><br />
+				 	<p>Don't forget to logout or exit your browser when you're done.
+    				If you are having trouble logging in, make sure to enable  cookies in your web browser.
+ 				 	</p>
+ 				 	<p>You don't have an account because you are a fresh student, or your student record has just been created?Inititialize your student account <strong><a class ="link" href="requestpw"> here</a></strong>.</p>
+ 					<p> Or simply forgot your student id, applicant id or password? Then request a new password<strong><a class="link" href="changepw"> here</a></strong>.</p>
+				</form>
+			</div>
+			<div class="footer">
+        		<p>Kofa - Student Management System<br />Copyright © WAeUP Group 2017</p>
+      		</div>
+		</div>
+	</div>	
+</body>
+</html>
